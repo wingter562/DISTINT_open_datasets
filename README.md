@@ -1,7 +1,7 @@
 # Human vs. AI-translated Multilingual Corpora (HAM)
 **Description**: High-quality multilingual parallel corpora (mostly public) paired with LLM-generated two-way translation. This dataset can be used for multiple purposes such as machine translation detection, translation fidelity evaluation, etc. 
 
-**Contributors**: This dataset, as part of the *[Open-source datasets created by DISTINT group](https://github.com/wingter562/DISTINT_open_data "DISTINT open datasets"), Jinan University (JNU)*, is contributed by Zixu Wangyu and Wentai Wu, Jinan University.
+**Contributors**: This dataset, as part of the *[Open data repository created by DISTINT group](https://github.com/wingter562/DISTINT_open_data "DISTINT open datasets")*, is contributed by Zixu Wangyu and Dr. Wentai Wu, Jinan University.
 
 **Translators**: the corpora contain parallel human-written text pairs in Chinese and English, each can be regarded as human translation of the other. In addition, we used Large Language Models (LLMs) to perform neural machine translation (NMT) for both languages. This was done by prompting with the human-written text and translation instruction as the context. 
 
