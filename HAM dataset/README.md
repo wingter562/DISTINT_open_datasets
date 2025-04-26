@@ -1,5 +1,5 @@
 #HAM DATASET
-##Induction£º
+##Induction  
 The HAM DARASET dataset is a bilingual parallel corpus, which contains 50,000 authoritative human - generated texts and 50,000 AI - generated translation texts respectively. It can be used for natural language processing (NLP) research and development, as well as cross - language information retrieval and knowledge graph construction.
 
 ##Bilingual parallel corpus
@@ -8,7 +8,7 @@ The HAM DARASET dataset is a bilingual parallel corpus, which contains 50,000 au
 |   Chinese  |   English  |  53809   |
 
 
-##Authors£º
+##Authors  
 Dataset is a project by:
 -Dr. Wentai Wu
 -Zixu Wangyu 
