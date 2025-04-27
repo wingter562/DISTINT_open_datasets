@@ -5,7 +5,7 @@
 
 **Translators**: the corpora contain parallel human-written text pairs in Chinese and English, each can be regarded as human translation of the other. In addition, we used Large Language Models (LLMs) to perform neural machine translation (NMT) for both languages. This was done by prompting with the human-written text and translation instruction as the context. 
 
-**LLMs used**: DeepSeek V3 671b, Qwen2.5-72B-Instruct, 
+**LLMs used**: DeepSeek V3 671b, QwQ-32B, 
 
 **Meta data**:
 - _languages_: English, Chinese
