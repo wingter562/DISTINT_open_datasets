@@ -11,12 +11,29 @@
 - _languages_: English, Chinese
 - _size_: 53810
 - _sectors_: 3 ("Science", "Law", "Finance")
-- _fields_:
-  - "sample_id": Indices, integer (1 to 53810)
-  - "raw_Chinese": human-written sentences in Chinese
-  - "raw_English": human-written sentences in English parallel to the value stored in the "Chinese" field.
-  - "DS_Cn2En": Deepseek-based neural machine Chinese-to-English translation of the "raw_Chinese" field.
-  - "DS_En2Cn": Deepseek-based neural machine English-to-Chinese translation of the "raw_English" field.
-  - "Qw_Cn2En": Qwen-based neural machine Chinese-to-English translation of the "raw_Chinese" field.
-  - "Qw_En2Cn": Qwen-based neural machine English-to-Chinese translation of the "raw_English" field.
+
+### HumanText_Dataset
+- "sample_id": Indices, integer (1 to 53810)
+- "raw_Chinese": human-written sentences in Chinese
+- "raw_English": human-written sentences in English parallel with the those stored in the "raw_Chinese" field.
+
+### DS_Cn2En
+- "id": Indices, integer (1 to 53810)
+- "query_text_cn": raw sentences consistent with the "raw_Chinese" field in the HumanText_Dataset.
+- "translation": **Deepseek**-based neural machine Chinese-to-English translation of the "query_text_cn" field.
+
+### DS_En2Cn
+- "id": Indices, integer (1 to 53810)
+- "query_text_en": raw sentences consistent with the "raw_English" field in the HumanText_Dataset.
+- "translation": **Deepseek**-based neural machine English-to-Chinese translation of the "query_text_en" field.
+
+### Qw_Cn2En
+- "id": Indices, integer (1 to 53810)
+- "query_text_cn": raw sentences consistent with the "raw_Chinese" field in the HumanText_Dataset.
+- "translation": **Qwen**-based neural machine Chinese-to-English translation of the "query_text_cn" field.
+
+### Qw_En2Cn
+- "id": Indices, integer (1 to 53810)
+- "query_text_en": raw sentences consistent with the "raw_English" field in the HumanText_Dataset.
+- "translation": **Qwen**-based neural machine English-to-Chinese translation of the "query_text_en" field.
 
