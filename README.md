@@ -1,11 +1,24 @@
 # Human vs. AI-translated Multilingual Corpora (HAM)
 **Description**: High-quality multilingual parallel corpora (mostly public) paired with LLM-generated two-way translation. This dataset can be used for multiple purposes such as machine translation detection, translation fidelity evaluation, etc. 
 
-**Contributors**: This dataset, as part of the *[Open data repository created by DISTINT group](https://github.com/wingter562/DISTINT_open_data "DISTINT open datasets")*, is contributed by Yutszyuk Wong and Dr. Wentai Wu, Jinan University.
+**Contributors**: This dataset, as part of the *[DISTINT Open data Repository (DOR)](https://github.com/wingter562/DISTINT_open_data "DISTINT Open data Repository (DOR)")*, is contributed by Yutszyuk Wong and Dr. Wentai Wu, Jinan University.
 
 **Translators**: the corpora contain parallel human-written text pairs in Chinese and English, each can be regarded as human translation of the other. In addition, we used Large Language Models (LLMs) to perform neural machine translation (NMT) for both languages. This was done by prompting with the human-written text and translation instruction as the context. 
 
 **LLMs used**: DeepSeek V3 671b, QwQ-32B, 
+
+--- 
+
+**_Disclaimer_**: This dataset is derived from the online public corpus collection _CQPweb_ (https://corpus.bfsu.edu.cn/index.htm), without any modification to the raw text. The human-written raw text provided is made available **"as is"**. The creator(s) of this dataset do not guarantee the accuracy, completeness, or reliability of the information contained within. We are not responsible for any misinformation or inproper statement contained.
+
+By using this dataset, you acknowledge that:  
+- The data may contain errors, inaccuracies, or outdated information.  
+- The dataset is not intended as professional, legal, medical, financial, or other expert advice.  
+- You assume full responsibility for any decisions or actions taken based on this dataset.  
+
+The creator(s) of this dataset **shall not be held liable** for any damages, losses, or consequences arising from the use, interpretation, or reliance on this data. Users are encouraged to independently verify the information before applying it in any context.  
+
+---  
 
 **Meta data**:
 - _languages_: English, Chinese
