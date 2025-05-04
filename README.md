@@ -5,7 +5,7 @@
 
 **Translators**: the corpora contain parallel human-written text pairs in Chinese and English, each can be regarded as human translation of the other. In addition, we used Large Language Models (LLMs) to perform neural machine translation (NMT) for both languages. This was done by prompting with the human-written text and translation instruction as the context. 
 
-**LLMs used**: DeepSeek V3 671b, QwQ-32B, 
+**LLMs used**: DeepSeek V3 671b, QwQ-32B, GPT-4.1
 
 --- 
 
@@ -46,7 +46,17 @@ The creator(s) of this dataset **shall not be held liable** for any damages, los
 - "translation": **Qwen**-based neural machine Chinese-to-English translation of the "query_text_cn" field.
 
 ### Qw_En2Cn
-- "id": Indices, integer (1 to 53810)
+- "id": Indices, integer (1 to 53809)
 - "query_text_en": raw sentences consistent with the "raw_English" field in the HumanText_Dataset.
 - "translation": **Qwen**-based neural machine English-to-Chinese translation of the "query_text_en" field.
+
+### GPT_Cn2En
+- "id": Indices, integer (1 to 53809)
+- "query_text_cn": raw sentences consistent with the "raw_Chinese" field in the HumanText_Dataset.
+- "translation": **GPT-4.1**-based neural machine Chinese-to-English translation of the "query_text_cn" field.
+
+### GPT_En2Cn
+- "id": Indices, integer (1 to 53809)
+- "query_text_en": raw sentences consistent with the "raw_English" field in the HumanText_Dataset.
+- "translation": **GPT-4.1**-based neural machine English-to-Chinese translation of the "query_text_en" field.
 
