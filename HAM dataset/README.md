@@ -12,4 +12,4 @@ Number of sentences by sector:
 
 | Science | Law | Finance | 
 | --------| ----| --------|
-|    TBC  | TBC |   TBC   |
+|    23675  | 14044|   16090   |
